@@ -98,7 +98,7 @@ To deploy this API on a production server, follow these steps:
 
 2. Clone the repository on your server:
    ```
-   git clone https://github.com/your-username/metaphoto-api.git
+   git clone https://github.com/alextuadev/metaphoto-api.git
    cd metaphoto-api
    ```
 
