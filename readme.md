@@ -24,7 +24,7 @@ This project is a RESTful API developed for MetaPhoto, a startup that helps phot
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/metaphoto-api.git
+   git clone https://github.com/alextuadev/metaphoto-api.git
    cd metaphoto-api
    ```
 
