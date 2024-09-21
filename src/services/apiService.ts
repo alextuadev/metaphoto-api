@@ -34,8 +34,10 @@ export async function getEnrichedPhotos(
   ]);
 
   let enrichedPhotos = photos.map((photo) => {
-    const album = albums.find((a) => a.id === photo.albumId);
-    const user = users.find((u) => u.id === album?.userId);
+    const album = albums.find(
+      (singleAlbum) => singleAlbum.id === photo.albumId
+    );
+    const user = users.find((singleUser) => singleUser.id === album?.userId);
     return {
       ...photo,
       album: { ...album, user } as Album & { user: User },

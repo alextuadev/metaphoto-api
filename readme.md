@@ -35,7 +35,7 @@ This project is a RESTful API developed for MetaPhoto, a startup that helps phot
 
 3. Create a `.env` file in the project root and add the following line:
    ```
-   PORT=3000
+   PORT=3001
    ```
    You can change the port number if desired.
 
